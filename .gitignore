@@ -1,0 +1,59 @@
+
+# Playwright
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# ============
+# anu 
+# Playwright
+# ==============
+# node_modules/
+# playwright-report/
+# test-results/
+
+# Environment and auth
+.env
+.env*
+auth/storageState.json
+
+# Backup files
+playwright.config.original.ts
+playwright.config.ts.original
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+## -------------
+# # Dependencies
+# node_modules/
+
+# # Playwright Test Outputs & Caches
+# test-results/
+# playwright-report/
+# blob-report/
+# playwright/.cache/
+# playwright/.auth/
+
+# # Environment Secrets and Auth States
+# .env
+# .env*
+# auth/storageState.json
+
+# # Backup files
+# playwright.config.original.ts
+# playwright.config.ts.original
+
+# # OS files
+# .DS_Store
+# Thumbs.db
+## --------
