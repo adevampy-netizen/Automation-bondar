@@ -27,6 +27,7 @@ test('user-visible locators', async ({page})=>{
     await page.getByTestId('inputEmail1').fill('new@gmail.com')
     await page.getByTitle('IoT Dashboard',{exact:true}).first().click()
     await page.getByRole('button',{exact:true}).click()
+    
     // await page.getByRole('textbox',)
 
 })
